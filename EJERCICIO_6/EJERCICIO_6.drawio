@@ -1,0 +1,57 @@
+<mxfile host="65bd71144e">
+    <diagram id="Zt6TMh8_lTY8QVMMlyWG" name="Página-1">
+        <mxGraphModel dx="804" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="INICIO" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#33001A;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="80" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="340" as="targetPoint"/>
+                        <mxPoint x="200" y="290" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="210" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="345"/>
+                            <mxPoint x="110" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="c = c + 1&lt;br&gt;i = i + 1" style="html=1;dashed=0;whitespace=wrap;fillColor=#99004D;" vertex="1" parent="1">
+                    <mxGeometry x="145" y="310" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="La cantidad de números que tiene el rango es&lt;br&gt;c" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;fillColor=#FF0080;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="300" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="FIN" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#33001A;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="420" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="x&lt;br&gt;y&lt;br&gt;c = 0&lt;br&gt;i = x + 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=#660033;" vertex="1" parent="1">
+                    <mxGeometry x="147.5" y="130" width="105" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="i &amp;lt; y" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.25;fillColor=#FF3399;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="230" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
